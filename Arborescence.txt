@@ -1,0 +1,28 @@
+projet_mobilite_urbaine/
+│
+├── data/                       # Données brutes et nettoyées
+│   ├── raw/                    # Données brutes téléchargées
+│   │   ├── quartiers.geojson
+│   │   ├── population_quartiers.csv
+│   │   └── traffic_montréal.csv (exemple)
+│   ├── processed/              # Données nettoyées et enrichies
+│   │   └── population_traffic.csv
+│
+├── notebooks/                  # Jupyter notebooks
+│   ├── 01_exploration.ipynb    # Exploration des données
+│   ├── 02_preprocessing.ipynb  # Nettoyage et fusion
+│   ├── 03_visualisation.ipynb  # Visualisations (cartes, graphiques)
+│   └── 04_modelisation.ipynb   # Idées de simulation/scénarios
+│
+├── scripts/                    # Scripts Python réutilisables
+│   ├── download_data.py        # Pour télécharger les datasets
+│   ├── preprocess_data.py      # Nettoyage et transformation
+│   └── utils.py                # Fonctions utilitaires
+│
+├── reports/                    # Résultats et visualisations
+│   ├── figures/                # Graphiques générés
+│   └── maps/                   # Cartes interactives
+│
+├── requirements.txt            # Dépendances Python
+├── README.md                   # Description du projet
+└── .gitignore                  # Fichiers à ignorer (si Git)
